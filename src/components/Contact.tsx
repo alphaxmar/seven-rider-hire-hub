@@ -10,7 +10,7 @@ const Contact = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-hero relative overflow-hidden">
+    <section className="py-20 bg-seven-green relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-transparent" />
       <div className="absolute top-20 right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
@@ -79,8 +79,8 @@ const Contact = () => {
           <div className="space-y-8">
             <Card className="p-8 bg-white/10 backdrop-blur-sm border border-white/20 text-white">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <Clock className="w-6 h-6 text-black" />
+                <div className="w-12 h-12 bg-seven-orange rounded-full flex items-center justify-center">
+                  <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold">เวลาทำการ</h3>
@@ -90,7 +90,7 @@ const Contact = () => {
               <div className="space-y-2 text-lg">
                 <p>จันทร์ - ศุกร์: 9:00 - 18:00</p>
                 <p>เสาร์ - อาทิตย์: 9:00 - 17:00</p>
-                <p className="text-yellow-300 text-sm">* สามารถแอดไลน์ได้ 24 ชั่วโมง</p>
+                <p className="text-seven-orange-light text-sm">* สามารถแอดไลน์ได้ 24 ชั่วโมง</p>
               </div>
             </Card>
 

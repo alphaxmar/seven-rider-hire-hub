@@ -4,7 +4,7 @@ import deliveryHero from "@/assets/delivery-hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-hero min-h-screen flex items-center">
+    <section className="relative overflow-hidden bg-seven-green min-h-screen flex items-center">
       {/* Decorative elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent" />
       <div className="absolute top-20 right-20 w-64 h-64 bg-white/5 rounded-full blur-3xl" />
@@ -16,18 +16,18 @@ const Hero = () => {
           <div className="text-white space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-yellow-300">รับสมัคร</span>
+                <span className="text-seven-orange-light">รับสมัคร</span>
                 <br />
                 <span className="text-white">ไรเดอร์ส่งสินค้า</span>
               </h1>
               <div className="text-xl lg:text-2xl text-white/90">
-                ประจำร้าน <span className="font-bold text-yellow-300">7-ELEVEN</span>
+                ประจำร้าน <span className="font-bold text-seven-orange-light">7-ELEVEN</span>
               </div>
             </div>
 
-            <div className="bg-yellow-400 text-black p-6 rounded-2xl shadow-elegant">
+            <div className="bg-seven-orange text-white p-6 rounded-2xl shadow-elegant">
               <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 bg-seven-green rounded-full flex items-center justify-center text-white text-sm">✓</span>
+                <span className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-seven-green text-sm">✓</span>
                 ข้อดีของการทำงานไรเดอร์กับเรา
               </h3>
               <ul className="space-y-2 text-lg">
@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
 
             <div className="bg-seven-green/20 backdrop-blur-sm border border-white/20 p-6 rounded-2xl">
-              <h3 className="text-xl font-bold mb-3 text-yellow-300">
+              <h3 className="text-xl font-bold mb-3 text-seven-orange-light">
                 มาเป็นส่วนหนึ่งของทีมไรเดอร์กับเรา!
               </h3>
               <div className="flex flex-col sm:flex-row gap-4">
