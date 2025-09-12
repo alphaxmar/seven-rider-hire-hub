@@ -25,7 +25,7 @@ const Benefits = () => {
       icon: <Shield className="w-8 h-8" />,
       title: "งานมั่นคง",
       description: "บริษัทใหญ่ที่มีความน่าเชื่อถือ",
-      detail: "7-Eleven แบรนด์ระดับโลก"
+      detail: "ร้านสะดวกซื้อ แบรนด์ที่คนไทยรู้จัก"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -53,7 +53,7 @@ const Benefits = () => {
             <span className="text-seven-green">ทำไม</span> ต้องเลือกเรา<span className="text-seven-red">?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            มาร่วมเป็นส่วนหนึ่งของครอบครัว 7-Eleven และเริ่มต้นการเดินทางสู่ความสำเร็จ
+            มาร่วมเป็นส่วนหนึ่งของครอบครัวร้านสะดวกซื้อ และเริ่มต้นการเดินทางสู่ความสำเร็จ
           </p>
         </div>
 
