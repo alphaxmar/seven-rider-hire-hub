@@ -15,6 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // 7-Eleven specific variants
+        "seven-green": "bg-seven-green text-white hover:bg-seven-green-light shadow-green transition-all duration-300 hover:scale-105",
+        "seven-orange": "bg-seven-orange text-white hover:bg-seven-orange-light shadow-orange transition-all duration-300 hover:scale-105",
+        "line": "bg-[#00B900] text-white hover:bg-[#00B900]/90 shadow-lg transition-all duration-300 hover:scale-105",
+        "phone": "bg-seven-orange text-white hover:bg-seven-orange-light shadow-orange transition-all duration-300 hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",

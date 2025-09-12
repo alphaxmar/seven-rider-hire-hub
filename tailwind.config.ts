@@ -19,6 +19,18 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        
+        // 7-Eleven brand colors
+        "seven-green": {
+          DEFAULT: "hsl(var(--seven-green))",
+          light: "hsl(var(--seven-green-light))",
+          dark: "hsl(var(--seven-green-dark))",
+        },
+        "seven-orange": {
+          DEFAULT: "hsl(var(--seven-orange))",
+          light: "hsl(var(--seven-orange-light))",
+        },
+        "seven-red": "hsl(var(--seven-red))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -57,6 +69,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        'kanit': ['Kanit', 'sans-serif'],
+        'sans': ['Kanit', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-secondary": "var(--gradient-secondary)", 
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "green": "var(--shadow-green)",
+        "orange": "var(--shadow-orange)",
+        "elegant": "var(--shadow-elegant)",
+      },
+      transitionTimingFunction: {
+        "smooth": "var(--transition-smooth)",
+        "bounce": "var(--transition-bounce)",
       },
       borderRadius: {
         lg: "var(--radius)",

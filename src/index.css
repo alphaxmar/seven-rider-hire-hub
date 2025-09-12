@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* 7-Eleven Rider Recruitment Design System
 All colors MUST be HSL.
 */
 
@@ -10,6 +10,29 @@ All colors MUST be HSL.
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+
+    /* 7-Eleven Brand Colors */
+    --seven-green: 140 100% 35%;
+    --seven-green-light: 140 100% 45%;
+    --seven-green-dark: 140 100% 25%;
+    --seven-orange: 24 100% 50%;
+    --seven-orange-light: 24 100% 60%;
+    --seven-red: 0 100% 50%;
+    
+    /* Beautiful gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--seven-green)), hsl(var(--seven-green-light)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--seven-orange)), hsl(var(--seven-orange-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--seven-green)) 0%, hsl(var(--seven-orange)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.05));
+    
+    /* Enhanced shadows */
+    --shadow-green: 0 10px 30px -10px hsl(var(--seven-green) / 0.3);
+    --shadow-orange: 0 10px 30px -10px hsl(var(--seven-orange) / 0.3);
+    --shadow-elegant: 0 20px 60px -10px hsl(var(--seven-green) / 0.2);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
