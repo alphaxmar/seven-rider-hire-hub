@@ -14,78 +14,49 @@ const Hero = () => {
           {/* Content */}
           <div className="text-white space-y-8">
             <div className="space-y-4">
-              <div className="inline-block bg-seven-orange text-white px-4 py-2 rounded-full text-sm font-bold mb-4 animate-pulse">
-                🔥 รับสมัครด่วน! เริ่มได้เลย
-              </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-seven-orange-light">เปลี่ยนชีวิต</span>
+                <span className="text-seven-orange-light">รับสมัคร</span>
                 <br />
-                <span className="text-white">ได้วันนี้!</span>
-                <br />
-                <span className="text-seven-orange-light text-4xl lg:text-5xl">มาเป็นไรเดอร์</span>
+                <span className="text-white">ไรเดอร์ส่งสินค้า</span>
               </h1>
               <div className="text-xl lg:text-2xl text-white/90">
-                กับ <span className="font-bold text-seven-orange-light">7-ELEVEN</span> 
-                <span className="text-seven-orange-light ml-2">💰 รายได้ดีที่สุด!</span>
+                ประจำร้าน <span className="font-bold text-seven-orange-light">7-ELEVEN</span>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-seven-orange to-seven-orange-light text-white p-6 rounded-2xl shadow-elegant border-2 border-white/20">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <span className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-seven-green text-sm animate-pulse">💰</span>
-                ทำไมต้องเลือกเรา?
+            <div className="bg-seven-orange text-white p-6 rounded-2xl shadow-elegant">
+              <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
+                <span className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-seven-green text-sm">✓</span>
+                ข้อดีของการทำงานไรเดอร์กับเรา
               </h3>
-              <ul className="space-y-3 text-lg">
-                <li className="flex items-center gap-3">
-                  <span className="text-2xl">💸</span>
-                  <span><strong>รายได้สูง!</strong> บิลละ 15 บาท + โบนัสพิเศษ</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-2xl">🎯</span>
-                  <span><strong>งานง่าย!</strong> แค่ส่งของ ไม่ต้องจัดออร์เดอร์</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-2xl">🏠</span>
-                  <span><strong>ใกล้บ้าน!</strong> เลือกพื้นที่ทำงานได้</span>
-                </li>
+              <ul className="space-y-2 text-lg">
+                <li>• รายได้ดี รายคิดเป็นบิล บิลละ 15 บาท</li>
+                <li>• ไม่ต้องจัดออร์เดอร์ จังส่งของอย่างเดียว</li>
+                <li>• รับงานพื้นที่ใกล้บ้าน</li>
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border-2 border-seven-orange-light/30 p-6 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-center">
-                <span className="text-seven-orange-light">🚀 เริ่มต้นง่ายๆ ใน 3 ขั้นตอน!</span>
+            <div className="bg-seven-green/20 backdrop-blur-sm border border-white/20 p-6 rounded-2xl">
+              <h3 className="text-xl font-bold mb-3 text-seven-orange-light">
+                มาเป็นส่วนหนึ่งของทีมไรเดอร์กับเรา!
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-seven-orange rounded-full flex items-center justify-center mx-auto mb-2 text-xl">1</div>
-                  <p className="text-sm text-white/90">แอดไลน์</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-seven-orange rounded-full flex items-center justify-center mx-auto mb-2 text-xl">2</div>
-                  <p className="text-sm text-white/90">ส่งเอกสาร</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-seven-orange rounded-full flex items-center justify-center mx-auto mb-2 text-xl">3</div>
-                  <p className="text-sm text-white/90">เริ่มงานได้เลย!</p>
-                </div>
-              </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   variant="line" 
                   size="lg" 
-                  className="flex items-center justify-center gap-3 text-lg px-8 py-4 rounded-full font-bold hover:scale-105 transition-all duration-300"
+                  className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold"
                 >
                   <MessageCircle className="w-6 h-6" />
-                  💬 แอดไลน์เลย! สมัครง่าย ๆ
+                  ติดต่อ-สอบถาม คลิกเพื่อแอดไลน์
                 </Button>
                 
                 <Button 
                   variant="seven-orange" 
                   size="lg"
-                  className="flex items-center justify-center gap-3 text-lg px-8 py-4 rounded-full font-bold hover:scale-105 transition-all duration-300"
+                  className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold"
                 >
                   <Phone className="w-6 h-6" />
-                  📞 โทรสอบถามทันที
+                  โทรเลย
                 </Button>
               </div>
             </div>
