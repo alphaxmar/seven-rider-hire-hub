@@ -37,10 +37,10 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-semibold mb-2">
-            7-ELEVEN Delivery Rider Recruitment
+            ร้านสะดวกซื้อ Delivery Rider Recruitment
           </p>
           <p className="text-gray-400">
-            มาร่วมเป็นส่วนหนึ่งของครอบครัว 7-Eleven วันนี้
+            มาร่วมเป็นส่วนหนึ่งของครอบครัวร้านสะดวกซื้อวันนี้
           </p>
         </div>
       </footer>

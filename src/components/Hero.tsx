@@ -25,7 +25,7 @@ const Hero = () => {
                 <span className="text-seven-orange-light text-4xl lg:text-5xl">มาเป็นไรเดอร์</span>
               </h1>
               <div className="text-xl lg:text-2xl text-white/90">
-                กับ <span className="font-bold text-seven-orange-light">7-ELEVEN</span> 
+                กับ <span className="font-bold text-seven-orange-light">ร้านสะดวกซื้อ</span> 
                 <span className="text-seven-orange-light ml-2">💰 รายได้ดีที่สุด!</span>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-card rounded-3xl transform rotate-3" />
             <img 
               src="/lovable-uploads/bf551fd2-eed9-40cc-8e94-203567700544.png" 
-              alt="ทีมไรเดอร์ 7-Eleven ในชุดยูนิฟอร์มสีส้ม"
+              alt="ทีมไรเดอร์ร้านสะดวกซื้อในชุดยูนิฟอร์มสีส้ม"
               className="relative z-10 w-full h-auto rounded-3xl shadow-elegant transform -rotate-1 hover:rotate-0 transition-transform duration-500"
             />
           </div>
