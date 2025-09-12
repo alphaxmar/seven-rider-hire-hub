@@ -19,7 +19,7 @@ const buttonVariants = cva(
         "seven-green": "bg-seven-green text-white hover:bg-seven-green-light shadow-green transition-all duration-300 hover:scale-105",
         "seven-orange": "bg-seven-orange text-white hover:bg-seven-orange-light shadow-orange transition-all duration-300 hover:scale-105",
         "line": "bg-[#00B900] text-white hover:bg-[#00B900]/90 shadow-lg transition-all duration-300 hover:scale-105",
-        "phone": "bg-seven-orange text-white hover:bg-seven-orange-light shadow-orange transition-all duration-300 hover:scale-105",
+        "seven-urgent": "bg-seven-red text-white hover:bg-seven-red/90 shadow-lg transition-all duration-300 hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",

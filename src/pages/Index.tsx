@@ -19,7 +19,7 @@ const Index = () => {
           LINE
         </Button>
         <Button 
-          variant="phone" 
+          variant="seven-orange" 
           size="lg"
           className="rounded-full shadow-elegant px-6 py-3"
         >

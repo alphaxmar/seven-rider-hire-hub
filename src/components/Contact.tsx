@@ -63,7 +63,7 @@ const Contact = () => {
                 {phoneNumbers.map((number, index) => (
                   <Button 
                     key={index}
-                    variant="phone" 
+                    variant="seven-orange" 
                     size="lg" 
                     className="w-full text-lg py-3 rounded-xl font-bold"
                   >

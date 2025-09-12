@@ -52,7 +52,7 @@ const Hero = () => {
                 </Button>
                 
                 <Button 
-                  variant="phone" 
+                  variant="seven-orange" 
                   size="lg"
                   className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold"
                 >

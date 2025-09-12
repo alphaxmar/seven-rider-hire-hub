@@ -50,7 +50,7 @@ const Benefits = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-seven-green">ทำไม</span> ต้องเลือกเรา?
+            <span className="text-seven-green">ทำไม</span> ต้องเลือกเรา<span className="text-seven-red">?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             มาร่วมเป็นส่วนหนึ่งของครอบครัว 7-Eleven และเริ่มต้นการเดินทางสู่ความสำเร็จ
@@ -63,7 +63,7 @@ const Benefits = () => {
               key={index}
               className="p-8 hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-white/80 backdrop-blur-sm border border-gray-200/50 group"
             >
-              <div className="text-seven-green mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="text-seven-red mb-6 group-hover:scale-110 transition-transform duration-300">
                 {benefit.icon}
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -72,7 +72,7 @@ const Benefits = () => {
               <p className="text-gray-700 mb-2 font-medium">
                 {benefit.description}
               </p>
-              <p className="text-sm text-seven-green font-medium">
+              <p className="text-sm text-seven-red font-medium">
                 {benefit.detail}
               </p>
             </Card>
