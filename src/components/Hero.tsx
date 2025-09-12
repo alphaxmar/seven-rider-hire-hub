@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle } from "lucide-react";
-import deliveryHero from "@/assets/delivery-hero.jpg";
 
 const Hero = () => {
   return (
@@ -67,8 +66,8 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-card rounded-3xl transform rotate-3" />
             <img 
-              src={deliveryHero} 
-              alt="7-Eleven Delivery Rider"
+              src="/lovable-uploads/bf551fd2-eed9-40cc-8e94-203567700544.png" 
+              alt="ทีมไรเดอร์ 7-Eleven ในชุดยูนิฟอร์มสีส้ม"
               className="relative z-10 w-full h-auto rounded-3xl shadow-elegant transform -rotate-1 hover:rotate-0 transition-transform duration-500"
             />
           </div>
