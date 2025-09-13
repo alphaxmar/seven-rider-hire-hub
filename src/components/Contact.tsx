@@ -43,6 +43,7 @@ const Contact = () => {
                 variant="line" 
                 size="lg" 
                 className="w-full text-lg py-4 rounded-xl font-bold"
+                onClick={() => window.open("https://lin.ee/sYaXbzX", "_blank")}
               >
                 <MessageCircle className="w-6 h-6 mr-3" />
                 ติดต่อ-สอบถาม คลิกเพื่อแอดไลน์

@@ -14,6 +14,7 @@ const Index = () => {
           variant="line" 
           size="lg"
           className="rounded-full shadow-elegant animate-pulse hover:animate-none px-6 py-3"
+          onClick={() => window.open("https://lin.ee/sYaXbzX", "_blank")}
         >
           <MessageCircle className="w-5 h-5 mr-2" />
           LINE
@@ -22,6 +23,7 @@ const Index = () => {
           variant="seven-orange" 
           size="lg"
           className="rounded-full shadow-elegant px-6 py-3"
+          onClick={() => window.open("tel:0983485259", "_blank")}
         >
           <Phone className="w-5 h-5 mr-2" />
           Call

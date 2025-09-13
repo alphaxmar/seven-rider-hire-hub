@@ -11,9 +11,9 @@ const Benefits = () => {
     },
     {
       icon: <Clock className="w-8 h-8" />,
-      title: "เวลาทำงานยืดหยุ่น",
-      description: "สามารถเลือกเวลาทำงานได้ตามสะดวก",
-      detail: "ไม่มีข้อผูกพัน"
+      title: "เวลาทำงานเป็นกะ",
+      description: "ทำงานตามเวลาที่สาขากำหนด",
+      detail: "มีความตรงต่อเวลา"
     },
     {
       icon: <MapPin className="w-8 h-8" />,
