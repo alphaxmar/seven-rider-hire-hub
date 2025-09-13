@@ -39,10 +39,16 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-semibold mb-2">
-            ร้านสะดวกซื้อ Delivery Rider Recruitment
+            บริษัท เอ็นทีเอส เรเวลเลชั่น จำกัด (NTS Revelation Co., Ltd.)
           </p>
-          <p className="text-gray-400">
-            มาร่วมเป็นส่วนหนึ่งของครอบครัวร้านสะดวกซื้อ วันนี้
+          <p className="text-gray-400 mb-2">
+            ผู้ให้บริการจัดหาบุคลากรให้กับองค์กรชั้นนำ
+          </p>
+          <p className="text-gray-400 mb-2">
+            อีเมล: ridernts.form@gmail.com | โทร: 098-348-5259
+          </p>
+          <p className="text-gray-500 text-sm">
+            © 2025 NTS Revelation. All Rights Reserved.
           </p>
         </div>
       </footer>

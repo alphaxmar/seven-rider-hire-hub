@@ -19,10 +19,10 @@ const Contact = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            พร้อมเริ่มต้นแล้ว?
+            พร้อมเริ่มต้นรายได้ 20,000-40,000 บาท/เดือน
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
-            ติดต่อสอบถามและสมัครงานได้ทันที ทีมงานพร้อมให้คำแนะนำ
+            ติดต่อสอบถามและสมัครงานได้ทันที ทีมงาน NTS Revelation พร้อมให้คำแนะนำ
           </p>
         </div>
 
@@ -89,9 +89,9 @@ const Contact = () => {
                 </div>
               </div>
               <div className="space-y-2 text-lg">
-                <p>จันทร์ - ศุกร์: 9:00 - 18:00</p>
+                <p>จันทร์ - ศุกร์: 8:30 - 18:30</p>
                 <p>เสาร์ - อาทิตย์: 9:00 - 17:00</p>
-                <p className="text-seven-orange-light text-sm">* สามารถแอดไลน์ได้ 24 ชั่วโมง</p>
+                <p className="text-seven-orange-light text-sm">* สามารถแอดไลน์ได้ 24 ชั่วโมง ทีมงานจะติดต่อกลับโดยเร็วที่สุด</p>
               </div>
             </Card>
 
@@ -106,7 +106,7 @@ const Contact = () => {
                 </div>
               </div>
               <p className="text-lg leading-relaxed">
-                เรามีสาขาให้บริการทั่วประเทศไทย สามารถเลือกทำงานในพื้นที่ที่ใกล้บ้านได้
+                บริษัท เอ็นทีเอส เรเวลเลชั่น จำกัด มีบริการจัดหางานทั่วประเทศไทย คุณสามารถเลือกทำงานในพื้นที่ที่ใกล้บ้านได้
               </p>
             </Card>
           </div>

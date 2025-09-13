@@ -23,7 +23,7 @@ const Requirements = () => {
     "เจ้าของรถเซ็นต์เรียบร้อยแล้ว",
     "สำเนาบัญชีธนาคาร (ไม่ขาดต่อ)",
     "สำเนาพรบ. (ไม่ขาดต่อ)",
-    "สำเนาสมุดบัญชี (ธ.ไทยพาณิชย์ ถ้าไม่มีเปิดบัญชีใหม่ได้)"
+    "สำเนาสมุดบัญชี (ธนาคารไทยพาณิชย์เท่านั้น)"
   ];
 
   return (
@@ -35,7 +35,7 @@ const Requirements = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-3 bg-seven-green text-white px-6 py-3 rounded-full text-lg font-bold mb-6">
             <CheckCircle className="w-6 h-6" />
-            เพียงมีคุณสมบัติตามนี้สมัครเลย!
+            เพียงมีคุณสมบัติตามนี้สมัครเลย! รายได้ 20,000-40,000 บาท/เดือน
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             คุณสมบัติของผู้สมัคร

@@ -10,17 +10,25 @@ const Hero = () => {
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
       
       <div className="container mx-auto px-4 relative z-10">
+        {/* NTS Revelation Logo */}
+        <div className="mb-6">
+          <div className="bg-white/90 inline-block px-4 py-2 rounded-lg">
+            <h3 className="text-gray-800 font-bold">NTS Revelation Co., Ltd.</h3>
+          </div>
+        </div>
+        
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-white space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-seven-orange-light">รับสมัคร</span>
+                <span className="text-seven-orange-light">เปิดรับสมัคร</span>
                 <br />
-                <span className="text-white">ไรเดอร์ส่งสินค้า</span>
+                <span className="text-white">ไรเดอร์</span>
               </h1>
               <div className="text-xl lg:text-2xl text-white/90">
-                ประจำร้าน <span className="font-bold text-seven-orange-light">ร้านสะดวกซื้อ</span>
+                <span className="font-bold text-seven-orange-light">สร้างรายได้ 20,000 - 40,000 บ./เดือน</span>
+                <br />กับตำแหน่งไรเดอร์ส่งสินค้าให้ร้านสะดวกซื้อชั้นนำ
               </div>
             </div>
 
@@ -30,15 +38,15 @@ const Hero = () => {
                 ข้อดีของการทำงานไรเดอร์กับเรา
               </h3>
               <ul className="space-y-2 text-lg">
-                <li>• รายได้ดี รายคิดเป็นบิล บิลละ 15 บาท</li>
-                <li>• ไม่ต้องจัดออร์เดอร์ จังส่งของอย่างเดียว</li>
-                <li>• รับงานพื้นที่ใกล้บ้าน</li>
+                <li>• รายได้ดี 20,000 - 40,000 บาท/เดือน (ขึ้นอยู่กับยอดบิล)</li>
+                <li>• ไม่ต้องจัดออร์เดอร์ เพียงส่งของอย่างเดียว</li>
+                <li>• เลือกทำงานในพื้นที่ใกล้บ้านได้</li>
               </ul>
             </div>
 
             <div className="bg-seven-green/20 backdrop-blur-sm border border-white/20 p-6 rounded-2xl">
               <h3 className="text-xl font-bold mb-3 text-seven-orange-light">
-                มาเป็นส่วนหนึ่งของทีมไรเดอร์กับเรา!
+                สมัครเลย! (รับจำนวนจำกัด)
               </h3>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -67,7 +75,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-card rounded-3xl transform rotate-3" />
             <img 
               src="/lovable-uploads/bf551fd2-eed9-40cc-8e94-203567700544.png" 
-              alt="ทีมไรเดอร์ร้านสะดวกซื้อ ในชุดยูนิฟอร์มสีส้ม"
+              alt="ทีมไรเดอร์ส่งสินค้าให้ร้านสะดวกซื้อชั้นนำ"
               className="relative z-10 w-full h-auto rounded-3xl shadow-elegant transform -rotate-1 hover:rotate-0 transition-transform duration-500"
             />
           </div>

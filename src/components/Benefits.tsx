@@ -6,8 +6,8 @@ const Benefits = () => {
     {
       icon: <Banknote className="w-8 h-8" />,
       title: "รายได้ดี",
-      description: "รายคิดเป็นบิล บิลละ 15 บาท*",
-      detail: "บิลเฉลี่ย 40-60 บิล/วัน"
+      description: "รายได้เฉลี่ย 20,000-40,000 บาท/เดือน",
+      detail: "จ่ายรายวัน ไม่ต้องรอเงินเดือน"
     },
     {
       icon: <Clock className="w-8 h-8" />,
@@ -24,8 +24,8 @@ const Benefits = () => {
     {
       icon: <Shield className="w-8 h-8" />,
       title: "งานมั่นคง",
-      description: "บริษัทใหญ่ที่มีความน่าเชื่อถือ",
-      detail: "ร้านสะดวกซื้อ แบรนด์ที่คนไทยรู้จัก"
+      description: "บริษัทที่มีความน่าเชื่อถือ",
+      detail: "NTS Revelation ผู้ให้บริการจัดหาบุคลากรชั้นนำ"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -53,7 +53,7 @@ const Benefits = () => {
             <span className="text-seven-green">ทำไม</span> ต้องเลือกเรา<span className="text-seven-red">?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            มาร่วมเป็นส่วนหนึ่งของครอบครัวร้านสะดวกซื้อ และเริ่มต้นการเดินทางสู่ความสำเร็จ
+            มาร่วมเป็นส่วนหนึ่งของทีมไรเดอร์มืออาชีพ และเริ่มต้นการเดินทางสู่อิสรภาพทางการเงิน
           </p>
         </div>
 
