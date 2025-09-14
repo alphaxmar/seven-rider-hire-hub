@@ -19,7 +19,7 @@ const Benefits = () => {
       icon: <MapPin className="w-8 h-8" />,
       title: "พื้นที่ใกล้บ้าน",
       description: "รับงานในพื้นที่ที่คุณต้องการ",
-      detail: "ไม่ต้องเดินทางไกล"
+      detail: <a href="/service-areas" className="text-seven-red hover:underline">ดูพื้นที่ให้บริการ</a>
     },
     {
       icon: <Shield className="w-8 h-8" />,

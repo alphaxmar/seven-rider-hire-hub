@@ -23,13 +23,15 @@ const Hero = () => {
           <div className="text-white space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-seven-orange-light">เปิดรับสมัคร</span>
+                <span className="text-seven-orange-light">สมัครไรเดอร์</span>
                 <br />
-                <span className="text-white">ไรเดอร์</span>
+                <span className="text-white">ร้านสะดวกซื้อชั้นนำ</span>
+                <br />
+                <span className="text-seven-orange-light">รายได้ดี ทำงานใกล้บ้านคุณ</span>
               </h1>
               <div className="text-xl lg:text-2xl text-white/90">
                 <span className="font-bold text-seven-orange-light">สร้างรายได้ 15,000 - 30,000 บ./เดือน (ขึ้นอยู่กับสาขาและจำนวนบิล)</span>
-                <br />กับตำแหน่งไรเดอร์ส่งสินค้าให้ร้านสะดวกซื้อชั้นนำ
+                <br />กับตำแหน่งไรเดอร์ส่งสินค้าอุปโภคบริโภคและอาหารพร้อมทานให้ร้านสะดวกซื้อชั้นนำที่มีสาขาทั่วประเทศ
               </div>
             </div>
 
@@ -42,6 +44,8 @@ const Hero = () => {
                 <li>• รายได้ดี 15,000 - 30,000 บาท/เดือน (ขึ้นอยู่กับสาขาและจำนวนบิล)</li>
                 <li>• ไม่ต้องจัดออร์เดอร์ เพียงส่งของอย่างเดียว</li>
                 <li>• เลือกทำงานในพื้นที่ใกล้บ้านได้</li>
+                <li>• เลือกเวลาทำงานได้อิสระ</li>
+                <li>• ไม่ต้องมีประสบการณ์ก็สมัครได้</li>
               </ul>
             </div>
 
@@ -49,11 +53,12 @@ const Hero = () => {
               <h3 className="text-xl font-bold mb-3 text-seven-orange-light">
                 สมัครเลย! (รับจำนวนจำกัด)
               </h3>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
                 <Button 
                   variant="line" 
                   size="lg" 
                   className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold"
+                  onClick={() => window.open("https://lin.ee/sYaXbzX", "_blank")}
                 >
                   <MessageCircle className="w-6 h-6" />
                   ติดต่อ-สอบถาม คลิกเพื่อแอดไลน์
@@ -63,9 +68,20 @@ const Hero = () => {
                   variant="seven-orange" 
                   size="lg"
                   className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold"
+                  onClick={() => window.open("tel:0983485259", "_blank")}
                 >
                   <Phone className="w-6 h-6" />
                   โทรเลย
+                </Button>
+
+                <Button 
+                  variant="secondary" 
+                  size="lg"
+                  className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold mt-2 sm:mt-0"
+                  onClick={() => window.location.href = "/service-areas"}
+                >
+                  <span className="w-6 h-6 flex items-center justify-center">🗺️</span>
+                  ดูพื้นที่ให้บริการ
                 </Button>
               </div>
             </div>

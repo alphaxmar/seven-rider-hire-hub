@@ -3,6 +3,7 @@ import Benefits from "@/components/Benefits";
 import Requirements from "@/components/Requirements";
 import Contact from "@/components/Contact";
 import GoogleForm from "@/components/GoogleForm";
+import FAQ from "@/components/FAQ";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone } from "lucide-react";
 
@@ -34,6 +35,7 @@ const Index = () => {
       <Hero />
       <Benefits />
       <Requirements />
+      <FAQ />
       <GoogleForm />
       <Contact />
       
@@ -49,6 +51,10 @@ const Index = () => {
           <p className="text-gray-400 mb-2">
             อีเมล: ridernts.form@gmail.com | โทร: 098-348-5259
           </p>
+          <div className="flex justify-center gap-4 my-4">
+            <a href="/" className="text-white hover:text-seven-orange transition-colors">หน้าแรก</a>
+            <a href="/service-areas" className="text-white hover:text-seven-orange transition-colors">พื้นที่ให้บริการ</a>
+          </div>
           <p className="text-gray-500 text-sm">
             © 2025 NTS Revelation. All Rights Reserved.
           </p>

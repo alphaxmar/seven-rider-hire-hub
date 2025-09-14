@@ -41,6 +41,10 @@ const ServiceAreasPage = () => {
           <p className="text-gray-400 mb-2">
             อีเมล: ridernts.form@gmail.com | โทร: 098-348-5259
           </p>
+          <div className="flex justify-center gap-4 my-4">
+            <a href="/" className="text-white hover:text-seven-orange transition-colors">หน้าแรก</a>
+            <a href="/service-areas" className="text-white hover:text-seven-orange transition-colors">พื้นที่ให้บริการ</a>
+          </div>
           <p className="text-gray-500 text-sm">
             © 2025 NTS Revelation. All Rights Reserved.
           </p>
