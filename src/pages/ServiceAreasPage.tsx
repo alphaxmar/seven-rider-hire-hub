@@ -1,4 +1,5 @@
 import ServiceAreas from "@/components/ServiceAreas";
+import GoogleForm from "@/components/GoogleForm";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone } from "lucide-react";
 
@@ -28,6 +29,28 @@ const ServiceAreasPage = () => {
       </div>
 
       <ServiceAreas />
+      
+      {/* Apply Button */}
+      <div className="py-10 bg-white text-center">
+        <div className="container mx-auto px-4">
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">สนใจสมัครงานไรเดอร์ 7-Eleven?</h3>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">หากคุณอยู่ในพื้นที่ให้บริการและสนใจร่วมงานกับเรา กรุณากรอกข้อมูลในฟอร์มสมัครงาน</p>
+          <a 
+            href="#application-form" 
+            className="inline-block px-8 py-4 bg-seven-red text-white font-medium rounded-lg shadow-md hover:bg-seven-red/90 transition-all transform hover:scale-105"
+            onClick={() => {
+              document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
+            สมัครงานเลย
+          </a>
+        </div>
+      </div>
+      
+      {/* Application Form */}
+      <div id="application-form">
+        <GoogleForm />
+      </div>
       
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
