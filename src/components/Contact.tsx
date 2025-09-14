@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            พร้อมเริ่มต้นรายได้ 20,000-40,000 บาท/เดือน
+            พร้อมเริ่มต้นรายได้ 15,000-30,000 บาท/เดือน (ขึ้นอยู่กับสาขาและจำนวนบิล)
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
             ติดต่อสอบถามและสมัครงานได้ทันที ทีมงาน NTS Revelation พร้อมให้คำแนะนำ
@@ -106,7 +106,7 @@ const Contact = () => {
                 </div>
               </div>
               <p className="text-lg leading-relaxed">
-                บริษัท เอ็นทีเอส เรเวลเลชั่น จำกัด มีบริการจัดหางานทั่วประเทศไทย คุณสามารถเลือกทำงานในพื้นที่ที่ใกล้บ้านได้
+                บริษัท เอ็นทีเอส เรเวเลชั่น จำกัด มีบริการจัดหางานทั่วประเทศไทย คุณสามารถเลือกทำงานในพื้นที่ที่ใกล้บ้านได้
               </p>
             </Card>
           </div>

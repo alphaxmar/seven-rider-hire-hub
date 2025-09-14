@@ -1,12 +1,8 @@
-import Hero from "@/components/Hero";
-import Benefits from "@/components/Benefits";
-import Requirements from "@/components/Requirements";
-import Contact from "@/components/Contact";
-import GoogleForm from "@/components/GoogleForm";
+import ServiceAreas from "@/components/ServiceAreas";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone } from "lucide-react";
 
-const Index = () => {
+const ServiceAreasPage = () => {
   return (
     <div className="min-h-screen">
       {/* Fixed Contact Buttons */}
@@ -31,11 +27,7 @@ const Index = () => {
         </Button>
       </div>
 
-      <Hero />
-      <Benefits />
-      <Requirements />
-      <GoogleForm />
-      <Contact />
+      <ServiceAreas />
       
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
@@ -58,4 +50,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default ServiceAreasPage;

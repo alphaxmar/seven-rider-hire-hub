@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle } from "lucide-react";
+import deliveryHero2 from "@/assets/delivery-hero2.png";
 
 const Hero = () => {
   return (
@@ -27,7 +28,7 @@ const Hero = () => {
                 <span className="text-white">ไรเดอร์</span>
               </h1>
               <div className="text-xl lg:text-2xl text-white/90">
-                <span className="font-bold text-seven-orange-light">สร้างรายได้ 20,000 - 40,000 บ./เดือน</span>
+                <span className="font-bold text-seven-orange-light">สร้างรายได้ 15,000 - 30,000 บ./เดือน (ขึ้นอยู่กับสาขาและจำนวนบิล)</span>
                 <br />กับตำแหน่งไรเดอร์ส่งสินค้าให้ร้านสะดวกซื้อชั้นนำ
               </div>
             </div>
@@ -38,7 +39,7 @@ const Hero = () => {
                 ข้อดีของการทำงานไรเดอร์กับเรา
               </h3>
               <ul className="space-y-2 text-lg">
-                <li>• รายได้ดี 20,000 - 40,000 บาท/เดือน (ขึ้นอยู่กับยอดบิล)</li>
+                <li>• รายได้ดี 15,000 - 30,000 บาท/เดือน (ขึ้นอยู่กับสาขาและจำนวนบิล)</li>
                 <li>• ไม่ต้องจัดออร์เดอร์ เพียงส่งของอย่างเดียว</li>
                 <li>• เลือกทำงานในพื้นที่ใกล้บ้านได้</li>
               </ul>
@@ -74,7 +75,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-card rounded-3xl transform rotate-3" />
             <img 
-              src="/lovable-uploads/bf551fd2-eed9-40cc-8e94-203567700544.png" 
+              src={deliveryHero2} 
               alt="ทีมไรเดอร์ส่งสินค้าให้ร้านสะดวกซื้อชั้นนำ"
               className="relative z-10 w-full h-auto rounded-3xl shadow-elegant transform -rotate-1 hover:rotate-0 transition-transform duration-500"
             />
