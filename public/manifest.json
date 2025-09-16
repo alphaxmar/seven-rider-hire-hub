@@ -1,0 +1,16 @@
+{
+  "name": "สมัครงานไรเดอร์ ร้านสะดวกซื้อใกล้บ้าน - NTS Revelation",
+  "short_name": "สมัครไรเดอร์",
+  "description": "สมัครงานไรเดอร์ส่งสินค้าให้ร้านสะดวกซื้อชั้นนำ รายได้ดี ทำงานใกล้บ้าน",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00754a",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
