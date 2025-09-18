@@ -58,7 +58,7 @@ const Hero = () => {
                   variant="line" 
                   size="lg" 
                   className="flex items-center gap-3 text-lg px-8 py-4 rounded-full font-bold"
-                  onClick={() => window.open("https://lin.ee/sYaXbzX", "_blank")}
+                  onClick={() => window.open("https://lin.ee/2lBcb1m", "_blank")}
                 >
                   <MessageCircle className="w-6 h-6" />
                   ติดต่อ-สอบถาม คลิกเพื่อแอดไลน์
