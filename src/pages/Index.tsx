@@ -54,6 +54,7 @@ const Index = () => {
           <div className="flex justify-center gap-4 my-4">
             <a href="/" className="text-white hover:text-seven-orange transition-colors">หน้าแรก</a>
             <a href="/service-areas" className="text-white hover:text-seven-orange transition-colors">พื้นที่ให้บริการ</a>
+            <a href="/privacy-policy" className="text-white hover:text-seven-orange transition-colors">นโยบายความเป็นส่วนตัว</a>
           </div>
           <p className="text-gray-500 text-sm">
             © 2025 NTS Revelation. All Rights Reserved.
